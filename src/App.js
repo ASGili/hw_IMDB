@@ -33,7 +33,7 @@ function App() {
  
  return (
 <>
-<ListBox/>
+<ListBox movieList={movieList}/>
 <ButtonBox/>
 </>
   );

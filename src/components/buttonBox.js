@@ -1,5 +1,11 @@
+import ButtonLink from './button'
+
 const ButtonBox = ()=>{
-    return null
+    return (
+        <section className='box'>
+        <ButtonLink/>
+        </section>
+    )
 }
 
 export default ButtonBox
